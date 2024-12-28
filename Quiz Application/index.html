@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="questions.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="initial-state">
+        <img src="images/logo.png" alt="logo">
+        <button class="start-btn btn">Start Now>>></button>
+    </div>
+    
+    <div class="ques-state hide">
+        <div class="container">
+            <div class="flex-box">
+                <img src="images/mini logo.png" alt="logo">
+                <div><span class="audio-tag">
+                    <!-- <audio class="audio" src="audio/WhatsApp Audio 2024-12-03 at 5.45.54 AM.mp4" autoplay loop preload="auto"></audio> -->
+                </span>
+                    <p><i class="fas fa-volume-up"></i></p>
+                    <p class="ques-num"><span class="curr-ques"></span><span class="total-ques"></span></p>
+                </div>
+            </div>
+            <div class="ques-container">
+            <!-- Questions are asked dynamically-->
+            </div>
+            <div class="timer">00:<span></span></div>
+            <div class="ques-option">
+                <!-- Options are asked dynamically -->
+                
+            </div>
+            <div class="next"><span>Next ></span></div>
+        </div><br><br>
+        <p class="dev">Made with ❤️ by  Anurag </p>
+    </div>
+    <div class="result hide">
+        <img src="images/mini logo.png" alt="logo">
+        <h2>Result</h2>
+        <h3 class="score"></h3>
+       
+       <h4 class="progress-text"></h4>
+       <button class=" retry-btn btn"><<< Retry</button>
+      
+  
+</body>
+</html>
